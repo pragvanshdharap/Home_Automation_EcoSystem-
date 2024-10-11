@@ -1,0 +1,4 @@
+# Home Automation 
+  The primary objective of this project is to create a centralized and user-friendly platform that allows homeowners to remotely monitor and control their home environment. By automating routine tasks and optimizing energy usage based on real-time data and user preferences, the system not only enhances comfort but also contributes to sustainable living.
+  The system's architecture is built around ESP32 and STM32 microcontrollers, which communicate via UART and CAN protocols, ensuring reliable data exchange and efficient operation across various home automation tasks. 
+  This project uses DHT11, PIR sensor, Ultrasonic Sensor on one STM32F4 and 4x3 keypad, LCD display on second STM32F4. Communication between STM32F4 and ESP32 Devkit V1 is achieved by UART Communication. CAN protocol is used to communicate between two STM32s. ESP32 Devkit V1 is used to connect with arduino cloud and send data recieved from STM32F4 to the cloud. 
